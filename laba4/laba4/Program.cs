@@ -7,6 +7,7 @@ namespace laba4
         static void Main(string[] args)
         {
 
+
 //<<<<<<< HEAD ВРАГ НАРОДА!!!
             Console.WriteLine("Вводи число А ");
             double A = Convert.ToDouble(Console.ReadLine());
@@ -17,6 +18,10 @@ namespace laba4
 
             double res1 = A + B;
             Console.WriteLine("Результатом сложения А и B будет" + Convert.ToString(res1));
+
+
+            double res2 = A - B;
+            Console.WriteLine("Результат вычитания А и В - " + Convert.ToString(res2));
 
         }
     }
