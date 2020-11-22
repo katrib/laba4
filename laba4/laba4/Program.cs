@@ -6,7 +6,8 @@ namespace laba4
     {
         static void Main(string[] args)
         {
-            
+            Console.WriteLine("Вводи число А ");
+            double A = Convert.ToDouble(Console.ReadLine());
         }
     }
 }
